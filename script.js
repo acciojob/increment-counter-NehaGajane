@@ -7,5 +7,5 @@ let count = 0;
 btn.addEventListener('click', function() {
 	counter.textContent = count+1;
 	count++;
-setTimeout(() => alert(count-1));
+    alert(count-1);
 })
